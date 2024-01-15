@@ -1,0 +1,19 @@
+select any one option
+1. add account
+2. fund transfer
+3. mini statement
+4. exit
+
+if choose 1
+input - ID, NAME, email, phoneNumber, accountNo
+
+TRANSACTION 1 - add account
+1. insert into users values(?, ?, ?, ?, ?)
+2. insert into totalAmount values(?,?,?)
+
+TRANSACTION 2 - fund transfer
+1. update totalAmount set balance=? where accountNo=?
+2. update totalAmount set balance=? where accountNo=?
+3. insert into miniStatement values(?,?,?,?,?,?)
+4. insert into miniStatement values(?,?,?,?,?,?)
+
